@@ -34,3 +34,18 @@ This repository provides a deep dive into the world of Text-to-SQL, specifically
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your_username/LLM-Text-to-SQL-Architectures.git
+
+2. Navigate to the directory:
+    ```bash
+    cd LLM-Text-to-SQL-Architectures
+
+
+Follow individual pattern READMEs for setup and usage instructions.
+### Challenges and Limitations
+A discussion on potential pitfalls, challenges, and areas of improvement in leveraging LLMs for Text-to-SQL.
+
+## Contributing
+We welcome contributions! Please read CONTRIBUTING.md for details on how to submit pull requests to us.
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
