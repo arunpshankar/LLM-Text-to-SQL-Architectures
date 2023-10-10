@@ -3,6 +3,19 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Credentials 
+credentials 
+credentials/
+
+# venv 
+.LLM-Text-to-SQL-Architectures
+.LLM-Text-to-SQL-Architectures/
+
+# DS Store 
+.DS_Store
+.DS_Store/
+
+
 # C extensions
 *.so
 
