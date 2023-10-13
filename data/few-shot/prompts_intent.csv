@@ -1,0 +1,31 @@
+prompt,intent
+Need all the bookings from 10th to 15th October 2023.,RETRIEVE_RESERVATIONS
+Could you retrieve reservations for mid-October 2023?,RETRIEVE_RESERVATIONS
+Let’s see all the October reservations from 10th to 15th.,RETRIEVE_RESERVATIONS
+Any reservations from 10/10/2023 to 15/10/2023?,RETRIEVE_RESERVATIONS
+I’m looking for bookings between the second and third weeks of October 2023.,RETRIEVE_RESERVATIONS
+Who made a reservation last Wednesday?,IDENTIFY_RECENT_CUSTOMERS
+Name the people who have booked a flight in the last week.,IDENTIFY_RECENT_CUSTOMERS
+Who secured a flight reservation this past week?,IDENTIFY_RECENT_CUSTOMERS
+Give me the names of last week's flight bookers.,IDENTIFY_RECENT_CUSTOMERS
+Can you identify the individuals who booked a flight within the previous week?,IDENTIFY_RECENT_CUSTOMERS
+What was our earning from confirmed bookings in October 2023?,CALCULATE_REVENUE
+How much income did we generate from bookings in October 2023?,CALCULATE_REVENUE
+What's the total revenue from confirmed transactions in the tenth month of 2023?,CALCULATE_REVENUE
+Find out the total income from confirmed bookings during October 2023.,CALCULATE_REVENUE
+I want to know the total revenue from confirmed reservations in October of 2023.,CALCULATE_REVENUE
+"In 2023, which month witnessed the highest number of departures?",FIND_PEAK_DEPARTURE_MONTHS
+Can you identify the month with the most flight takeoffs in 2023?,FIND_PEAK_DEPARTURE_MONTHS
+Show me the month having the highest flight departures in 2023.,FIND_PEAK_DEPARTURE_MONTHS
+What month in 2023 was the busiest in terms of departures?,FIND_PEAK_DEPARTURE_MONTHS
+Which month in 2023 saw the most number of departures?,FIND_PEAK_DEPARTURE_MONTHS
+How many customers fall into five distinct age categories?,GROUP_AND_COUNT_CUSTOMERS_BY_AGE
+Give me a count of customers broken down into five age groups.,GROUP_AND_COUNT_CUSTOMERS_BY_AGE
+I need a breakdown of customer counts across five age segments.,GROUP_AND_COUNT_CUSTOMERS_BY_AGE
+Count the customers and group them into five age brackets.,GROUP_AND_COUNT_CUSTOMERS_BY_AGE
+Can you provide the number of customers in each of five age groups?,GROUP_AND_COUNT_CUSTOMERS_BY_AGE
+List adult customers with confirmed bookings this month and order them by age.,IDENTIFY_AND_RANK_CUSTOMERS
+"Display a list of adults with confirmed reservations this month, starting from the youngest.",IDENTIFY_AND_RANK_CUSTOMERS
+Identify all customers above 18 with confirmed reservations this month and sort them by age.,IDENTIFY_AND_RANK_CUSTOMERS
+"Can you list the adults who have confirmed bookings this month, sorted by age?",IDENTIFY_AND_RANK_CUSTOMERS
+"I’d like to see a list of adults with confirmed bookings for the current month, arranged by age.",IDENTIFY_AND_RANK_CUSTOMERS
