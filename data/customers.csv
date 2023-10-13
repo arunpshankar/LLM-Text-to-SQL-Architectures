@@ -1,0 +1,21 @@
+customer_id,first_name,last_name,email,date_of_birth,created_at
+1,John,Doe,john.doe@example.com,1985-02-15,2021-01-01 08:30:00
+2,Jane,Doe,jane.doe@example.com,1987-05-23,2021-01-15 12:45:00
+3,Alice,Johnson,alice.j@example.com,1990-08-10,2021-03-20 09:00:00
+4,Bob,Smith,bob.smith@example.com,1982-11-12,2021-02-25 10:15:00
+5,Charlie,Brown,charlie.b@example.com,1995-05-20,2021-06-01 11:30:00
+6,Diana,Prince,diana.p@example.com,1988-12-01,2021-07-15 14:30:00
+7,Ethan,Hunt,ethan.h@example.com,1975-04-18,2021-08-22 08:00:00
+8,Fiona,Shrek,fiona.s@example.com,1992-01-14,2021-09-05 16:45:00
+9,Gary,Oldman,gary.o@example.com,1970-03-21,2021-10-03 08:15:00
+10,Hannah,Montana,hannah.m@example.com,1998-10-15,2021-11-30 12:30:00
+11,Ian,Somerhalder,ian.s@example.com,1978-12-08,2021-12-10 14:45:00
+12,Jack,Sparrow,jack.s@example.com,1963-06-09,2022-01-15 10:00:00
+13,Kate,Winslet,kate.w@example.com,1975-10-05,2022-02-20 09:45:00
+14,Liam,Neeson,liam.n@example.com,1952-07-07,2022-03-18 11:15:00
+15,Mary,Jane,mary.j@example.com,1993-11-22,2022-04-30 13:00:00
+16,Nick,Fury,nick.f@example.com,1965-05-04,2022-06-15 14:30:00
+17,Olivia,Newton,olivia.n@example.com,1948-09-26,2022-08-12 15:45:00
+18,Peter,Parker,peter.p@example.com,2001-08-10,2022-09-01 10:00:00
+19,Queen,Elizabeth,queen.e@example.com,1926-04-21,2022-10-22 08:15:00
+20,Ryan,Reynolds,ryan.r@example.com,1976-10-23,2022-11-13 12:00:00
