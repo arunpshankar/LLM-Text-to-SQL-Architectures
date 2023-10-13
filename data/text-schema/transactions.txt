@@ -1,0 +1,27 @@
+----
+Transactions Table:
+Description:
+The Transactions table logs all financial transactions related to flight reservations. Each record signifies a unique transaction, holding details about the associated reservation, the transaction amount, and the date and time it was conducted.
+----
+Columns:
+--
+transaction_id:
+Description: A unique identifier for each transaction conducted on the platform.
+Usage: This ID ensures that each transaction is distinct and can be referenced for financial tracking, customer inquiries, and reporting purposes.
+Type: INT64
+--
+reservation_id:
+Description: A reference to a reservation from the Reservations table which this transaction pertains to.
+Usage: Links the financial transaction to a specific reservation, facilitating accurate financial tracking and providing context for customer inquiries and financial reporting.
+Type: INT64
+--
+amount:
+Description: The financial amount of the transaction.
+Usage: Represents the monetary value exchanged in the transaction, critical for financial tracking, reporting, and auditing.
+Type: FLOAT64
+--
+transaction_datetime:
+Description: The date and time when the transaction was conducted.
+Usage: Provides temporal context for the transaction, aiding in financial tracking, customer communication, and data analysis related to sales trends and revenue generation.
+Type: DATETIME
+--

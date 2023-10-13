@@ -1,0 +1,42 @@
+----
+Flights Table:
+Description:
+The Flights table records all available flights and their relevant details. Each record represents a unique flight, including details about its origin, destination, departure, arrival, carrier, and price.
+----
+Columns:
+--
+flight_id:
+Description: A unique identifier for each flight.
+Usage: This ID ensures each flight is distinct and can be referenced for booking, customer inquiries, and operational purposes.
+Type: INT64
+--
+origin:
+Description: The departure location of the flight.
+Usage: Helps customers and operational teams identify where the flight begins and assists in planning and managing flight schedules.
+Type: STRING
+--
+destination:
+Description: The arrival location of the flight.
+Usage: Aids customers in finding flights that reach their desired destination and helps operational teams manage and plan flight schedules.
+Type: STRING
+--
+departure_datetime:
+Description: The date and time when the flight is scheduled to depart.
+Usage: Provides customers with the information needed to plan their journey and helps operational teams manage and track flights.
+Type: DATETIME
+--
+arrival_datetime:
+Description: The date and time when the flight is scheduled to arrive at the destination.
+Usage: Facilitates customers in planning their schedules around their arrival and assists operational teams in managing gate assignments and staff scheduling.
+Type: DATETIME
+--
+carrier:
+Description: The airline carrier operating the flight.
+Usage: Allows customers to select flights based on their preferred carrier and helps manage partnerships and operational logistics related to specific carriers.
+Type: STRING
+--
+price:
+Description: The price of a ticket on the flight.
+Usage: Enables customers to evaluate and purchase flights based on their budget and assists in revenue management and pricing strategies for the carrier.
+Type: FLOAT64
+--

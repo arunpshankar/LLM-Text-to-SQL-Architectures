@@ -1,0 +1,37 @@
+----
+Customers Table:
+Description:
+The Customers table stores information about each customer that interacts with the platform. Each record represents a unique customer, containing personal details and a unique identifier.
+----
+Columns:
+--
+customer_id:
+Description: A unique identifier for each customer on the platform.
+Usage: This ID ensures that each customer is distinct and can be referenced for any queries, issues, or communication.
+Type: INT64
+--
+first_name:
+Description: The first name of the customer.
+Usage: Utilized for personalizing communication and user experiences.
+Type: STRING
+--
+last_name:
+Description: The last name of the customer.
+Usage: Employed alongside the first name to personalize experiences and for identification purposes.
+Type: STRING
+--
+email:
+Description: The email address of the customer.
+Usage: Serves as a primary communication channel with the customer, for sending notifications, marketing materials, and correspondence.
+Type: STRING
+--
+date_of_birth:
+Description: The date of birth of the customer.
+Usage: Can be used to ensure the customer is of adequate age for any age-restricted interactions and for sending birthday greetings or offers.
+Type: DATE
+--
+created_at:
+Description: The date and time when the customer record was created.
+Usage: Helps in tracking the duration of the customer's association with the platform and can be used for data analysis related to customer retention and lifecycle.
+Type: DATETIME
+--
