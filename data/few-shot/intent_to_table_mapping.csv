@@ -1,6 +1,6 @@
 intent,mapped_tables
-RETRIEVE_RESERVATIONS,reservations
-IDENTIFY_RECENT_CUSTOMERS,customers|reservations
+RETRIEVE_RESERVATIONS,reservations|flights
+IDENTIFY_RECENT_CUSTOMERS,reservations|customers
 CALCULATE_REVENUE,reservations|transactions
 FIND_PEAK_DEPARTURE_MONTHS,flights
 GROUP_AND_COUNT_CUSTOMERS_BY_AGE,customers
