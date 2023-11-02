@@ -6,11 +6,11 @@ A comprehensive guide and implementation of architectural patterns that utilize 
 
 - [Introduction](#introduction)
 - [Architectural Patterns](#architectural-patterns)
-  - [Modular Pipeline Architecture](#modular-pipeline-architecture)
-  - [Feedback Loop Integration](#feedback-loop-integration)
-  - [Multi-layered Validation System](#multi-layered-validation-system)
-  - [Contextual Understanding Framework](#contextual-understanding-framework)
-  - [Hybrid Model Integration](#hybrid-model-integration)
+  - [Pattern 1](#pattern-I)
+  - [Pattern II](#pattern-II)
+  - [Pattern III](#pattern-III)
+  - [Pattern IV](#pattern-IV)
+  - [Pattern V](#pattern-v)
 - [Getting Started](#getting-started)
 - [Challenges and Limitations](#challenges-and-limitations)
 - [Contributing](#contributing)
@@ -22,22 +22,39 @@ This repository provides a deep dive into the world of Text-to-SQL, specifically
 
 ## Architectural Patterns
 
-### Modular Pipeline Architecture
-- **Description**: A brief on how the modular pipeline enhances the Text-to-SQL process.
-- **Implementation**: Code snippets, diagrams, and more.
+### Pattern I
+we use Using LLM to detect intent and recognize/extract entities followed by Text-to-SQL generation
 
-### Feedback Loop Integration
-... (similar structure for other patterns)
+### Pattern II
+- **Description**: 
+
+### Pattern III
+- **Description**: 
+
+### Pattern IV
+- **Description**: 
+
+### Pattern V
+- **Description**: 
+
 
 ## Getting Started
 
 1. **Clone the Repository**:
+
    ```bash
    git clone https://github.com/your_username/LLM-Text-to-SQL-Architectures.git
 
 2. Navigate to the directory:
+
     ```bash
     cd LLM-Text-to-SQL-Architectures
+
+  <add instructutions to setup venv>
+
+  source .venv/bin/activate
+
+  pip install -r requireemnts.txt
 
 
 Follow individual pattern READMEs for setup and usage instructions.
