@@ -6,63 +6,74 @@ A comprehensive guide and implementation of architectural patterns that utilize 
 
 - [Introduction](#introduction)
 - [Architectural Patterns](#architectural-patterns)
-  - [Pattern 1](#pattern-I)
-  - [Pattern II](#pattern-II)
-  - [Pattern III](#pattern-III)
-  - [Pattern IV](#pattern-IV)
+  - [Pattern I](#pattern-i)
+  - [Pattern II](#pattern-ii)
+  - [Pattern III](#pattern-iii)
+  - [Pattern IV](#pattern-iv)
   - [Pattern V](#pattern-v)
 - [Getting Started](#getting-started)
-- [Challenges and Limitations](#challenges-and-limitations)
+- [Challenges and Limitations](#challenges-and-limitations) (In Progress)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+## Introduction 📘
 
-This repository provides a deep dive into the world of Text-to-SQL, specifically focusing on the integration of LLMs to enhance the SQL generation process. With the rise of LLMs, there's an increased potential to simplify and optimize the way we translate natural language into structured query language. This repository explores various architectural patterns that can be employed to harness the full potential of LLMs in this domain.
+This repository offers an in-depth exploration into Text-to-SQL conversion, emphasizing the role of LLMs in enhancing the SQL generation process. With the advent of LLMs, there is a promising opportunity to streamline the translation of natural language to SQL. We explore various architectural patterns that leverage the capabilities of LLMs in this exciting field.
 
-## Architectural Patterns
+## Architectural Patterns 🏗️
 
 ### Pattern I
-we use Using LLM to detect intent and recognize/extract entities followed by Text-to-SQL generation
+Utilizing LLMs to identify intent, extract entities, and subsequently generate SQL.
 
 ### Pattern II
-- **Description**: 
+Incorporating Retriever-Augmented Generation (RAG) with table and column metadata to pinpoint relevant database schema elements, allowing LLMs to formulate queries based on natural language questions.
 
 ### Pattern III
-- **Description**: 
+Adopting an autonomous agent-based approach where a BigQuery SQL agent, equipped with an ODBC connection, iteratively attempts and refines SQL queries with minimal external guidance.
 
 ### Pattern IV
-- **Description**: 
+Implementing a self-correcting mechanism where the LLM receives direct schema input, generates an SQL query, and upon execution failure, uses the error feedback to self-correct and retry until successful. This pattern also explores using the Code-Chat Bison model to potentially reduce costs and improve latency.
 
 ### Pattern V
-- **Description**: 
+Similar to Pattern IV but employs a stochastic approach with a temperature setting of 1. It runs multiple trials and selects the query that executes the fastest.
 
-
-## Getting Started
+## Getting Started 🚀
 
 1. **Clone the Repository**:
 
    ```bash
    git clone https://github.com/your_username/LLM-Text-to-SQL-Architectures.git
+   ```
 
 2. Navigate to the directory:
 
-    ```bash
-    cd LLM-Text-to-SQL-Architectures
+   ```bash
+   cd LLM-Text-to-SQL-Architectures
+   ```
 
-  <add instructutions to setup venv>
+3. **Set up a virtual environment**:
 
-  source .venv/bin/activate
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
 
-  pip install -r requireemnts.txt
+4. **Install dependencies**:
 
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Follow individual pattern READMEs for setup and usage instructions.
-### Challenges and Limitations
-A discussion on potential pitfalls, challenges, and areas of improvement in leveraging LLMs for Text-to-SQL.
+Follow the individual pattern READMEs for detailed setup and usage instructions.
 
-## Contributing
-We welcome contributions! Please read CONTRIBUTING.md for details on how to submit pull requests to us.
+## Challenges and Limitations ⚠️ (In Progress)
 
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This section discusses the potential pitfalls, challenges, and areas for improvement in the application of LLMs for Text-to-SQL conversion. Stay tuned as we continue to update this section with the latest findings and experiences.
+
+## Contributing 🤝
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. Check out CONTRIBUTING.md for guidelines on how to submit pull requests.
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
