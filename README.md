@@ -29,11 +29,19 @@ Utilizing LLMs to identify intent, extract entities, and subsequently generate S
 <img src="./img/pattern-1.png" alt="Architecture (100-Foot View)" width="800" height="450"/>
 </div>
 
+<div align="center">
+  Click on image to enlarge
+</div>
+
 ### Pattern II
 Incorporating Retriever-Augmented Generation (RAG) with table and column metadata to pinpoint relevant database schema elements, allowing LLMs to formulate queries based on natural language questions.
 
 <div align="center">
 <img src="./img/pattern-2.png" alt="Architecture (100-Foot View)" width="800" height="450"/>
+</div>
+
+<div align="center">
+  Click on image to enlarge
 </div>
 
 ### Pattern III
@@ -43,6 +51,10 @@ Adopting an autonomous agent-based approach where a BigQuery SQL agent, equipped
 <img src="./img/pattern-3.png" alt="Architecture (100-Foot View)" width="800" height="450"/>
 </div>
 
+<div align="center">
+  Click on image to enlarge
+</div>
+
 ### Pattern IV
 Implementing a self-correcting mechanism where the LLM receives direct schema input, generates an SQL query, and upon execution failure, uses the error feedback to self-correct and retry until successful. This pattern also explores using the Code-Chat Bison model to potentially reduce costs and improve latency.
 
@@ -50,11 +62,19 @@ Implementing a self-correcting mechanism where the LLM receives direct schema in
 <img src="./img/pattern-4.png" alt="Architecture (100-Foot View)" width="800" height="450"/>
 </div>
 
+<div align="center">
+  Click on image to enlarge
+</div>
+
 ### Pattern V
 Similar to Pattern IV but employs a stochastic approach with a temperature setting of 1. It runs multiple trials and selects the query that executes the fastest.
 
 <div align="center">
 <img src="./img/pattern-5.png" alt="Architecture (100-Foot View)" width="800" height="450"/>
+</div>
+
+<div align="center">
+  Click on image to enlarge
 </div>
 
 ## Getting Started 🚀
