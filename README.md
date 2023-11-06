@@ -22,7 +22,7 @@ This repository offers an in-depth exploration into Text-to-SQL conversion, emph
 
 ## Architectural Patterns 🏗️
 
-### Pattern I
+### Pattern I: Intent Detection and Entity Recognition with Text-to-SQL
 Utilizing LLMs to identify intent, extract entities, and subsequently generate SQL.
 
 <div align="center">
@@ -33,7 +33,7 @@ Utilizing LLMs to identify intent, extract entities, and subsequently generate S
   Click on image to enlarge
 </div>
 
-### Pattern II
+### Pattern II: LLM Flow with Retrieval-Augmented Generation (RAG)
 Incorporating Retriever-Augmented Generation (RAG) with table and column metadata to pinpoint relevant database schema elements, allowing LLMs to formulate queries based on natural language questions.
 
 <div align="center">
@@ -44,7 +44,7 @@ Incorporating Retriever-Augmented Generation (RAG) with table and column metadat
   Click on image to enlarge
 </div>
 
-### Pattern III
+### Pattern III: Using SQL Agents
 Adopting an autonomous agent-based approach where a BigQuery SQL agent, equipped with an ODBC connection, iteratively attempts and refines SQL queries with minimal external guidance.
 
 <div align="center">
@@ -55,7 +55,7 @@ Adopting an autonomous agent-based approach where a BigQuery SQL agent, equipped
   Click on image to enlarge
 </div>
 
-### Pattern IV
+### Pattern IV: Direct Schema Inference with Self-Correction
 Implementing a self-correcting mechanism where the LLM receives direct schema input, generates an SQL query, and upon execution failure, uses the error feedback to self-correct and retry until successful. This pattern also explores using the Code-Chat Bison model to potentially reduce costs and improve latency.
 
 <div align="center">
@@ -66,7 +66,7 @@ Implementing a self-correcting mechanism where the LLM receives direct schema in
   Click on image to enlarge
 </div>
 
-### Pattern V
+### Pattern V: Direct Schema Inference, Self-Correction & Optimization
 Similar to Pattern IV but employs a stochastic approach with a temperature setting of 1. It runs multiple trials and selects the query that executes the fastest.
 
 <div align="center">
